@@ -11,3 +11,5 @@
 ー追加の確認をする
 # このサイトが参考になった
 -良かった
+# チーズアカデミーのwebサイト
+-デプロイ先：https://yukari-torisu.github.io/cheese_academy/

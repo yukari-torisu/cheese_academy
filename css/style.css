@@ -1,0 +1,338 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+
+body{
+	width: 960px;
+}
+
+.title_box{
+	background: url(../img/mainbg.png);
+	background-size: cover; 
+	height: 350px;
+	background-position: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title{
+	font-size: 48px;
+	color: cornsilk;
+}
+
+.sub_title{
+	font-size: 36px;
+	color: cornsilk;
+}
+
+
+.menu{
+	display: flex;
+	width: 100%;
+	max-width: 960px; 
+	height: 80px;
+	box-shadow: 0 0 10px #dddddd;
+	background-color: white;
+	justify-content: center;
+	
+}
+
+.menu_left{
+	float: left;
+	
+}
+
+.menu_logo{
+	height: 60px;
+	margin-top: 10px;
+	
+}
+
+
+.menu_box_light a {
+
+	line-height: 70px;
+	color: black;
+	margin-top: 10px;
+	margin-left: 50px;
+	font-size: 21px;
+	justify-content: right;
+} 
+
+.about_box{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 21px;
+}
+
+.about_box_top{
+	color: #ffd61a;
+	padding-top: 120px;
+	
+}
+
+
+
+.about_box_p{
+	padding-top: 24px;
+}
+
+.about_box_p2{
+	padding-top: 64px;
+
+}
+
+.about_box_p3{
+	padding-top: 40px;
+	white-space: pre;
+}
+
+.about_box_p4{
+	padding-top: 40px;
+}
+
+.about_box_p5{
+	padding-top: 40px;
+	white-space: pre;
+}
+
+.image_slide{
+	display: flex;
+	width: 960px;
+	
+}
+
+.image_slide_slide{
+	width: 960px;
+	justify-content: space-between;
+	display: flex;
+}
+
+.course{
+	size: 24px;
+	color: #222222;
+	text-align: center;
+	margin-top: 64px;
+}
+
+.course_p{
+	size: 24px;
+	color: #222222;
+	text-align: center;
+	margin-top: 24px;
+	white-space: pre;
+}
+
+.course_01{
+	display: flex;
+	width: 100%;
+}
+
+.course_01_02{
+	background-color: whitesmoke;
+}
+
+.course_01_text{
+	size: 24px;
+	color: #222222;
+	text-align: center;
+	margin: auto;
+}
+
+.course_02{
+	display: flex;
+	width: 100%;
+}
+
+.course_02_02{
+	background-color: whitesmoke;
+}
+
+.course_02_text{
+	size: 24px;
+	color: #222222;
+	text-align: center;
+	margin: auto;
+}
+
+.course_03{
+	display: flex;
+	width: 100%;
+}
+
+.course_03_02{
+	background-color: whitesmoke;
+}
+
+.course_03_text{
+	size: 24px;
+	color: #222222;
+	text-align: center;
+	margin: auto;
+}
+
+.news{
+	size: 24px;
+	color: #ffd61a;
+	margin-top: 64px;
+	text-align: center;
+}
+
+.news_news{
+	margin-top: 24px;
+	margin-bottom: 64px;
+	text-align: center;
+}
+
+.flex_news{
+	display: flex;
+}
+	
+.flex_news_text{
+	display: flex;
+	text-align: center;
+	margin-top: 32px;
+}
+
+.flex_news_text_text{
+	display: flex;
+	text-align: center;
+	margin-top: 24px;
+}
+
+.more{
+	background-size: 300px,60px;
+	background-color: #ffd61a;
+	color: white;
+	text-align: center;
+	margin-top: 56px;
+	margin-bottom: 48px;
+}
+
+.flex_access{
+	background-color: #fafafa;
+	text-align: center;
+    margin-top: 48px;
+}
+
+.flex_access_text{
+	margin-top: 64px;
+	margin-bottom: 24px;
+	size: 24px;
+}
+
+.flex_access_text_text{
+	margin-bottom: 64px;
+
+}
+
+.container{
+	display: flex;
+	background-color: #fafafa;
+	text-align: center;
+	flex-direction: row;
+
+}
+
+.flex_access_p1{
+	white-space: pre;
+
+}
+
+
+.flex_access_p2{
+	white-space: pre;
+
+}
+
+.contact_box{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact_box_top{
+	color: #ffd61a;
+	padding-top: 120px;
+	font-size: 24px;
+	
+}
+
+
+
+.contact_box_p{
+	padding-top: 24px;
+	white-space: pre;
+	font-size: 21px;
+}
+
+.contact_box_p2{
+	padding-top: 64px;
+	white-space: pre;
+	font-size: 21px;
+
+}
+
+.contact_box_p3{
+	padding-top: 40px;
+	white-space: pre;
+	font-size: 21px;
+}
+
+
+
+
+
+
+
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
